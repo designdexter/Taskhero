@@ -1,13 +1,14 @@
 {
   "name": "taskhero",
-  "main": "expo-router/entry",
+  "main": "./index.js",
   "version": "0.0.1",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "storybook": "storybook",
+    "storybook": "EXPO_PUBLIC_STORYBOOK=true expo start",
+    "storybook-generate": "sb-rn-get-stories",
     "lint": "expo lint",
     "tsc": "tsc --noEmit"
   },
