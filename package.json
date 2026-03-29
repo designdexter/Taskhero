@@ -37,7 +37,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
-    "@storybook/addon-backgrounds": "^9.0.8",
     "@storybook/addon-ondevice-actions": "^8.6.0",
     "@storybook/addon-ondevice-controls": "^8.6.0",
     "@storybook/addon-react-native-web": "^0.0.29",
